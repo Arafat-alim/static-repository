@@ -64,6 +64,9 @@ strong {
     outline-offset: 3px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* Buttons */
 .btn {
@@ -199,15 +202,36 @@ header {
     z-index: 10000;
 }
 
+.nav-open .nav {
+    transform: translateX(0%);
+}
+
+.nav-open .nav-toggle {
+    position: fixed;
+}
+
+.nav-open .hamburger {
+    transform: rotate(.625turn);
+}
+
+.nav-open .hamburger::before {
+    transform: rotate(90deg) translateX(-6px)
+}
+
+.nav-open .hamburger::after {
+    opacity: 0;
+}
+
 .hamburger {
     display: block;
     position: relative;
+
 }
 
 .hamburger,
 .hamburger::after,
 .hamburger::before {
-    background-color: var(--clr-dark);
+    background-color: var(--clr-accent);
     width: 2em;
     border-radius: 1em;
     height: 3px;
@@ -220,6 +244,7 @@ header {
     position: absolute;
     left: 0;
     right: 0;
+
 }
 
 .hamburger::before {
