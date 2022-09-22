@@ -29,3 +29,18 @@
         --fs-body: 1.125rem;
     }
 }
+
+/* General styles */
+body {
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-reg);
+    line-height: 1.0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
