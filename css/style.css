@@ -15,7 +15,9 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    /* --clr-accent: #16e0bd; */
+    /* --clr-accent: #A6B34B; */
+    --clr-accent: #FE3C37;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
