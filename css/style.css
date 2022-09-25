@@ -148,7 +148,8 @@ header {
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 175px;
+    cursor: pointer;
 }
 
 .nav {
