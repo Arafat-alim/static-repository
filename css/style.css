@@ -443,17 +443,22 @@ header {
     text-decoration: none;
 }
 
+.footer__link {
+    font-size: 1.2em;
+}
+
 .footer__link:hover,
 .social-link__lists:hover {
     opacity: 0.7;
 }
 
 .social-list {
+    font-size: 1.2em;
     list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2em 0;
+    margin: 1.2em 0;
     padding: 0;
 }
 
@@ -463,4 +468,9 @@ header {
 
 .social-list__link {
     padding: .5em;
+}
+
+.visit {
+    display: inline;
+    /* color: #fff; */
 }

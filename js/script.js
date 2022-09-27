@@ -14,3 +14,8 @@ navLinks.forEach((link) => {
     // alert("OOPS");
   });
 });
+
+// ! Webiste visits counts
+function websiteVisit(response) {
+  document.getElementById("visits").innerText = response.value;
+}
